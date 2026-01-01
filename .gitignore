@@ -1,2 +1,3 @@
-# Ignore env file
 /.env
+/config/deploy.yml
+.DS_Store

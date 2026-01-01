@@ -1,0 +1,19 @@
+service: telesink
+image: telesink.com
+
+servers:
+  - telesink.example.com
+
+proxy:
+  ssl: true
+  host: telesink.example.com
+
+env:
+  secret:
+    - GIT_URL
+
+registry:
+  server: localhost:5555
+
+builder:
+  arch: amd64
