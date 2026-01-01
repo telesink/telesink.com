@@ -1,4 +1,4 @@
-# .
+# telesink.com
 
 This site is managed by [Skiff](https://github.com/basecamp/kamal-skiff).
 
