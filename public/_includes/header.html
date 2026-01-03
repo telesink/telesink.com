@@ -35,13 +35,42 @@
       line-height: 1.5;
     }
 
-    main,
-    header,
-    footer {
+    .layout {
       max-width: 90ch;
       margin: 0 auto;
+      padding: 0 1rem;
     }
 
+    nav {
+      margin-top: 1rem;
+    }
+
+    .site-nav {
+      display: flex;
+      gap: 2ch;
+    }
+
+    .logo {
+      width: 50px;
+      height: 50px;
+      margin-top: 1rem;
+    }
+
+    .post-list {
+      margin: 0;
+      padding: unset;
+      list-style-type: none;
+    }
+
+    .post-list li {
+      display: flex;
+      gap: 1ch;
+    }
+
+    .post-list time {
+      flex: 0 0 12ch;
+    }
   </style>
 </head>
-<body>
+<body class="layout">
+<main>
